@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+      216deg,
+      rgba(77, 77, 77, 0.05) 0%,
+      rgba(77, 77, 77, 0.05) 25%,
+      rgba(42, 42, 42, 0.05) 25%,
+      rgba(42, 42, 42, 0.05) 38%,
+      rgba(223, 223, 223, 0.05) 38%,
+      rgba(223, 223, 223, 0.05) 75%,
+      rgba(36, 36, 36, 0.05) 75%,
+      rgba(36, 36, 36, 0.05) 100%
+    ),
+    linear-gradient(
+      44deg,
+      rgba(128, 128, 128, 0.05) 0%,
+      rgba(128, 128, 128, 0.05) 34%,
+      rgba(212, 212, 212, 0.05) 34%,
+      rgba(212, 212, 212, 0.05) 57%,
+      rgba(25, 25, 25, 0.05) 57%,
+      rgba(25, 25, 25, 0.05) 89%,
+      rgba(135, 135, 135, 0.05) 89%,
+      rgba(135, 135, 135, 0.05) 100%
+    ),
+    linear-gradient(
+      241deg,
+      rgba(55, 55, 55, 0.05) 0%,
+      rgba(55, 55, 55, 0.05) 14%,
+      rgba(209, 209, 209, 0.05) 14%,
+      rgba(209, 209, 209, 0.05) 60%,
+      rgba(245, 245, 245, 0.05) 60%,
+      rgba(245, 245, 245, 0.05) 69%,
+      rgba(164, 164, 164, 0.05) 69%,
+      rgba(164, 164, 164, 0.05) 100%
+    ),
+    linear-gradient(
+      249deg,
+      rgba(248, 248, 248, 0.05) 0%,
+      rgba(248, 248, 248, 0.05) 32%,
+      rgba(148, 148, 148, 0.05) 32%,
+      rgba(148, 148, 148, 0.05) 35%,
+      rgba(202, 202, 202, 0.05) 35%,
+      rgba(202, 202, 202, 0.05) 51%,
+      rgba(181, 181, 181, 0.05) 51%,
+      rgba(181, 181, 181, 0.05) 100%
+    ),
+    linear-gradient(92deg, hsl(214, 0%, 11%), hsl(214, 0%, 11%));
+}
+/* .navigation {
+  text-align: right;
+  word-spacing: 1rem;
+  padding-right: 2rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+} */
+a {
+  color: black;
+  text-decoration: none;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 h1 {
+  font-size: 45px;
+  line-height: 60px;
+  padding: 0px 40px;
+  color: #fff;
+  border: 4px solid #eeeeee;
+  margin-top: 11rem;
+  transition: background-position 0.5 ease-out;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Navbar */
+nav {
+  background-image: ;
+}
+label.logo {
+  background-image: linear-gradient(
+      44deg,
+      rgba(243, 243, 243, 0.05) 0%,
+      rgba(243, 243, 243, 0.05) 33.333%,
+      rgba(79, 79, 79, 0.05) 33.333%,
+      rgba(79, 79, 79, 0.05) 66.666%,
+      rgba(9, 9, 9, 0.05) 66.666%,
+      rgba(9, 9, 9, 0.05) 99.999%
+    ),
+    linear-gradient(
+      97deg,
+      rgba(150, 150, 150, 0.05) 0%,
+      rgba(150, 150, 150, 0.05) 33.333%,
+      rgba(34, 34, 34, 0.05) 33.333%,
+      rgba(34, 34, 34, 0.05) 66.666%,
+      rgba(40, 40, 40, 0.05) 66.666%,
+      rgba(40, 40, 40, 0.05) 99.999%
+    ),
+    linear-gradient(
+      29deg,
+      rgba(56, 56, 56, 0.05) 0%,
+      rgba(56, 56, 56, 0.05) 33.333%,
+      rgba(226, 226, 226, 0.05) 33.333%,
+      rgba(226, 226, 226, 0.05) 66.666%,
+      rgba(221, 221, 221, 0.05) 66.666%,
+      rgba(221, 221, 221, 0.05) 99.999%
+    ),
+    linear-gradient(90deg, rgb(163, 238, 211), rgb(149, 75, 252));
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 50px;
+  margin-left: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,
+a:hover {
+  background-image: radial-gradient(
+      circle at 30% 94%,
+      rgba(245, 245, 245, 0.06) 0%,
+      rgba(245, 245, 245, 0.06) 50%,
+      rgba(21, 21, 21, 0.06) 50%,
+      rgba(21, 21, 21, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 59% 19%,
+      rgba(248, 248, 248, 0.06) 0%,
+      rgba(248, 248, 248, 0.06) 50%,
+      rgba(87, 87, 87, 0.06) 50%,
+      rgba(87, 87, 87, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 7% 11%,
+      rgba(148, 148, 148, 0.06) 0%,
+      rgba(148, 148, 148, 0.06) 50%,
+      rgba(254, 254, 254, 0.06) 50%,
+      rgba(254, 254, 254, 0.06) 100%
+    ),
+    linear-gradient(90deg, rgb(189, 189, 189), rgb(205, 205, 205));
+  transition: 0.5s;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  a:hover,
+  a.active {
+    background: none;
+    color: #e2e9ee;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+/* main section */
+.box {
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.493);
+  overflow: hidden;
+  background: #fff;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  transform: skew(-5deg);
+  margin-bottom: 50px;
+}
+.box div {
+  width: 200px;
+  height: 300px;
+}
+.box div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform: scale(1);
+  transform-origin: top;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.493);
+  transition: transform 0.4s;
+}
+.box:hover div img {
+  transform: scale(0.9) translateY(10px);
+}
+.box p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  transition: all 0.4s;
+}
+.box:hover p {
+  transform: translate(-50%, -5%);
+  transition-delay: 0.2;
+}
+/* footer */
+footer {
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+}
+.main-content {
+  display: flex;
+}
+.main-content .bx {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.bx h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffce00;
+}
+.bx .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.bx .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #7b61df;
+}
+.bx .content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: #7b61df;
+  top: -10px;
+}
+.left .content p {
+  text-align: justify;
+  color: #ffffff;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 2px;
+}
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #c0c1c5;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover {
+  background: #7b61df;
+}
+.center .content .fas {
+  font-size: 1.4375rem;
+  background: #c0c1c5;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover {
+  background: #7b61df;
+}
+.center .content .text {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+  color: #ffffff;
+}
+.center .content .phone {
+  margin: 15px 0;
+}
+.right form .text {
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #ffffff;
+}
+.right form .msg {
+  margin-top: 10px;
+}
+.right form input,
+.right form textarea {
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #c0c1c5;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus {
+  outline-color: #3498db;
+}
+.right form input {
+  height: 35px;
+}
+.right form .btn {
+  margin-top: 10px;
+}
+.right form .btn button {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.right form .btn button:hover {
+  background: #7b61df;
+}
+.bottom center {
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span {
+  color: #ffffff;
+}
+.bottom center a {
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .bx {
+    margin: 5px 0;
+  }
+}
+
+.exe-back {
+  margin-top: 1.6rem;
+  border-radius: 40px;
+  border: 4px solid #ffffff;
+  overflow: hidden;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-left: auto;
+  padding-right: auto;
+}
+.exe-img {
+  width: 300px;
+  height: 400px;
+  margin-left: 9rem;
+  line-height: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.exe h1 {
+  border: 4px solid #ffffff;
+  text-align: center;
+  margin-left: 43%;
+  margin-right: 43%;
+  border-radius: 50px;
+  background-image: repeating-linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.03) 0px,
+      rgba(0, 0, 0, 0.03) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(45deg, rgb(18, 105, 233), rgb(166, 255, 155));
+  margin-top: 5rem;
+}
+.main-exe {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-exe {
+  width: 250px;
+  height: 350px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.493);
+  overflow: hidden;
+  background: #fff;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 15px;
+  transform: skew(-5deg);
+}
+.box-exe div {
+  width: 250px;
+  height: 350px;
+}
+.box-exe div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform: scale(1);
+  transform-origin: top;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.493);
+  transition: transform 0.4s;
+}
+.box-exe:hover div img {
+  transform: scale(0.9) translateY(10px);
+}
+.box-exe p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 20px);
+  transition: all 0.4s;
+}
+.box-exe:hover p {
+  transform: translate(-50%, -5%);
+  transition-delay: 0.2;
+}
+.first-exe {
+  margin-top: -5rem;
+}
+.second-exe {
+  margin-top: -15rem;
+}
